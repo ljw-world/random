@@ -1,14 +1,17 @@
-# 随机数
+# 随机数生成函数
 
 ## 示例
 
 ```
+var random = require("@ljw_world/random")
+
+
 不传参数
-randomNumber() => [0 - > 255]
+random() => [0 - > 255]
 
 传一个参数
-randomNumber(9) => [0 - > 9]
+random(9) => [0 - > 9]
 
 传两个参数
-randomNumber(1, 9) => [1 -> 9]
+random(1, 9) => [1 -> 9]
 ```
